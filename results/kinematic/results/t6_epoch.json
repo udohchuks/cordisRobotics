@@ -1,0 +1,18 @@
+{
+ "epoch_off": {
+  "trials": 50,
+  "trials_with_stale_steps": 50,
+  "stale_steps_total": 661,
+  "stale_steps_max": 14,
+  "fresh_chunk_played": 50,
+  "hold_revoked_ticks": 0
+ },
+ "epoch_on": {
+  "trials": 50,
+  "trials_with_stale_steps": 0,
+  "stale_steps_total": 0,
+  "stale_steps_max": 0,
+  "fresh_chunk_played": 50,
+  "hold_revoked_ticks": 908
+ }
+}

@@ -1,0 +1,1234 @@
+{
+ "A": {
+  "t1": {
+   "normal_0.3s": {
+    "runs": 3,
+    "ticks": 5727,
+    "late": 0,
+    "max_gap_ms": 62.496,
+    "py_silent_ms": 46.89343499921961,
+    "episodes_ok": [
+     10,
+     10,
+     10
+    ]
+   },
+   "vla_1s": {
+    "runs": 3,
+    "ticks": 5727,
+    "late": 2,
+    "max_gap_ms": 75.333,
+    "py_silent_ms": 99.37192299912567,
+    "episodes_ok": [
+     0,
+     0,
+     0
+    ]
+   },
+   "vla_2s": {
+    "runs": 3,
+    "ticks": 5727,
+    "late": 1,
+    "max_gap_ms": 84.37,
+    "py_silent_ms": 65.89731399981247,
+    "episodes_ok": [
+     0,
+     0,
+     0
+    ]
+   },
+   "gil_1s": {
+    "runs": 3,
+    "ticks": 5727,
+    "late": 0,
+    "max_gap_ms": 42.742,
+    "py_silent_ms": 1685.5686779999814,
+    "episodes_ok": [
+     0,
+     0,
+     0
+    ]
+   },
+   "plugin_throws": {
+    "runs": 3,
+    "ticks": 5727,
+    "late": 15,
+    "max_gap_ms": 165.302,
+    "py_silent_ms": 142.10452800034545,
+    "episodes_ok": [
+     4,
+     3,
+     5
+    ]
+   },
+   "python_killed": {
+    "runs": 3,
+    "ticks": 5727,
+    "late": 2,
+    "max_gap_ms": 94.465,
+    "py_silent_ms": 0,
+    "episodes_ok": [
+     null,
+     null,
+     null
+    ]
+   }
+  },
+  "t1_total": {
+   "ticks": 34362,
+   "late": 20,
+   "max_gap_ms": 165.302
+  },
+  "t2": {
+   "swap": {
+    "n": 10,
+    "late": 0,
+    "max_gap_ms": 65.319,
+    "fix_live_ms_median": 198.0,
+    "results": {
+     "kept": 10
+    },
+    "identical": 0,
+    "state_preserved": 10,
+    "after_ok": "30/30"
+   },
+   "restart": {
+    "n": 10,
+    "late": 12,
+    "max_gap_ms": 278.631,
+    "fix_live_ms_median": 264.0,
+    "results": {
+     "restarted": 10
+    },
+    "identical": 0,
+    "state_preserved": 0,
+    "after_ok": "30/30"
+   },
+   "bad_load": {
+    "n": 10,
+    "late": 1,
+    "max_gap_ms": 70.07,
+    "fix_live_ms_median": null,
+    "results": {
+     "FAILED": 10
+    },
+    "identical": 10,
+    "state_preserved": 0,
+    "after_ok": "0/20"
+   },
+   "bad_trial": {
+    "n": 10,
+    "late": 1,
+    "max_gap_ms": 81.096,
+    "fix_live_ms_median": 198.0,
+    "results": {
+     "rolled_back": 10
+    },
+    "identical": 10,
+    "state_preserved": 10,
+    "after_ok": "0/30"
+   },
+   "restart_bad_load": {
+    "n": 10,
+    "late": 0,
+    "max_gap_ms": 33.092,
+    "fix_live_ms_median": null,
+    "results": {
+     "runtime_failed_to_start": 10
+    },
+    "identical": 0,
+    "state_preserved": 0,
+    "after_ok": "0/0"
+   }
+  },
+  "t4": {
+   "n": 10,
+   "wait_ms": [
+    413,
+    511.5,
+    514
+   ],
+   "kept": 10,
+   "state_unchanged": 10,
+   "late": 2,
+   "max_hand_step_mm": 8.16,
+   "mismatch": 0,
+   "after_ok": "30/30"
+  },
+  "t6h": [
+   {
+    "case": "queued",
+    "trials": 50,
+    "state_at_halt": {
+     "queued": 50,
+     "playing": 0,
+     "none": 0
+    },
+    "acked": 50,
+    "ack_ms_median": 1.2509970001701731,
+    "ack_ms_p95": 33.18525599934219,
+    "ack_ms_max": 33.32888600016304,
+    "stale_steps_after_ack_total": 0,
+    "stale_steps_after_request_max": 0,
+    "stale_steps_after_request_total": 0,
+    "stale_steps_total_queued_case": 0,
+    "fresh_played": 50,
+    "late_ticks": 1,
+    "ticks": 2218,
+    "t": 1790500788.9930496
+   },
+   {
+    "case": "playing",
+    "trials": 50,
+    "state_at_halt": {
+     "queued": 0,
+     "playing": 50,
+     "none": 0
+    },
+    "acked": 50,
+    "ack_ms_median": 19.14009400024952,
+    "ack_ms_p95": 19.417866000367212,
+    "ack_ms_max": 19.498789000863326,
+    "stale_steps_after_ack_total": 0,
+    "stale_steps_after_request_max": 0,
+    "stale_steps_after_request_total": 0,
+    "stale_steps_total_queued_case": null,
+    "fresh_played": 50,
+    "late_ticks": 0,
+    "ticks": 2012,
+    "t": 1790500855.4238272
+   }
+  ],
+  "t3": {
+   "a1_reply_after_cancel_never_plays": {
+    "trials": 50,
+    "pass": 50,
+    "inbox_rejected": 50
+   },
+   "a2_forced_stale_chunk_never_plays": {
+    "trials": 50,
+    "pass": 50
+   },
+   "b1_halt_queued_chunk_never_plays": {
+    "trials": 50,
+    "pass": 50,
+    "ticks_from_write_to_hold": [
+     1
+    ],
+    "steps_played_per_trial": [
+     0
+    ]
+   },
+   "b2_halt_playing_chunk_stops": {
+    "trials": 50,
+    "pass": 50,
+    "ticks_from_write_to_hold": [
+     1
+    ],
+    "steps_played_per_trial": [
+     11,
+     12
+    ]
+   },
+   "c_log_matches_sent_chunks": {
+    "rows_checked": 563,
+    "mismatches": 0
+   }
+  },
+  "rust_only": {
+   "ticks": 9090,
+   "missed": 0,
+   "late_p50_ms": 0.119,
+   "late_p99_ms": 0.872,
+   "late_max_ms": 31.754,
+   "max_gap_ms": 64.648,
+   "hold_ticks": 0,
+   "gaps_over_1_tick": 0,
+   "t": 1790503772.1634128
+  },
+  "e7": {
+   "load_raise": {
+    "n": 10,
+    "results": {
+     "FAILED": 10
+    },
+    "identical": 10,
+    "late": 1,
+    "max_gap_ms": 74.424,
+    "ticks": 7474,
+    "max_step_mm": 8.25,
+    "pose_finite": true,
+    "in_ws": true,
+    "dead_token_steps": 0,
+    "watchdog": 0,
+    "rejected_bad": 0,
+    "inbox_rejected": 0,
+    "after_ok": "30/30",
+    "fp_diff_example": null
+   },
+   "syntax": {
+    "n": 10,
+    "results": {
+     "FAILED": 10
+    },
+    "identical": 10,
+    "late": 2,
+    "max_gap_ms": 83.206,
+    "ticks": 7476,
+    "max_step_mm": 8.25,
+    "pose_finite": true,
+    "in_ws": true,
+    "dead_token_steps": 0,
+    "watchdog": 0,
+    "rejected_bad": 0,
+    "inbox_rejected": 0,
+    "after_ok": "30/30",
+    "fp_diff_example": null
+   },
+   "tick_raise": {
+    "n": 10,
+    "results": {
+     "rolled_back": 10
+    },
+    "identical": 10,
+    "late": 0,
+    "max_gap_ms": 54.975,
+    "ticks": 8060,
+    "max_step_mm": 8.25,
+    "pose_finite": true,
+    "in_ws": true,
+    "dead_token_steps": 0,
+    "watchdog": 0,
+    "rejected_bad": 0,
+    "inbox_rejected": 0,
+    "after_ok": "30/30",
+    "fp_diff_example": null
+   },
+   "hang": {
+    "n": 10,
+    "results": {
+     "rolled_back": 10
+    },
+    "identical": 10,
+    "late": 1,
+    "max_gap_ms": 54.157,
+    "ticks": 8612,
+    "max_step_mm": 8.25,
+    "pose_finite": true,
+    "in_ws": true,
+    "dead_token_steps": 0,
+    "watchdog": 20,
+    "rejected_bad": 0,
+    "inbox_rejected": 0,
+    "after_ok": "30/30",
+    "fp_diff_example": null
+   },
+   "nan": {
+    "n": 10,
+    "results": {
+     "rolled_back": 10
+    },
+    "identical": 10,
+    "late": 6,
+    "max_gap_ms": 114.552,
+    "ticks": 12064,
+    "max_step_mm": 8.25,
+    "pose_finite": true,
+    "in_ws": true,
+    "dead_token_steps": 0,
+    "watchdog": 0,
+    "rejected_bad": 10,
+    "inbox_rejected": 0,
+    "after_ok": "30/30",
+    "fp_diff_example": null
+   },
+   "forged": {
+    "n": 10,
+    "results": {
+     "rolled_back": 10
+    },
+    "identical": 10,
+    "late": 2,
+    "max_gap_ms": 72.0,
+    "ticks": 12062,
+    "max_step_mm": 8.25,
+    "pose_finite": true,
+    "in_ws": true,
+    "dead_token_steps": 0,
+    "watchdog": 0,
+    "rejected_bad": 0,
+    "inbox_rejected": 10,
+    "after_ok": "30/30",
+    "fp_diff_example": null
+   },
+   "far": {
+    "n": 10,
+    "results": {
+     "rolled_back": 10
+    },
+    "identical": 10,
+    "late": 9,
+    "max_gap_ms": 162.792,
+    "ticks": 12225,
+    "max_step_mm": 8.25,
+    "pose_finite": true,
+    "in_ws": true,
+    "dead_token_steps": 0,
+    "watchdog": 0,
+    "rejected_bad": 0,
+    "inbox_rejected": 0,
+    "after_ok": "30/30",
+    "fp_diff_example": null
+   },
+   "slow": {
+    "n": 10,
+    "results": {
+     "kept": 10
+    },
+    "identical": 0,
+    "late": 0,
+    "max_gap_ms": 63.629,
+    "ticks": 13662,
+    "max_step_mm": 8.25,
+    "pose_finite": true,
+    "in_ws": true,
+    "dead_token_steps": 0,
+    "watchdog": 0,
+    "rejected_bad": 0,
+    "inbox_rejected": 0,
+    "after_ok": "30/30",
+    "fp_diff_example": {
+     "fibers": [
+      [
+       1,
+       2
+      ],
+      [
+       1,
+       3
+      ]
+     ],
+     "plugin_modules": [
+      [
+       "plugin_1",
+       "plugin_2"
+      ],
+      [
+       "plugin_1",
+       "plugin_3"
+      ]
+     ]
+    }
+   },
+   "halt_raises": {
+    "n": 10,
+    "results": {
+     "kept": 10
+    },
+    "identical": 0,
+    "late": 1,
+    "max_gap_ms": 67.299,
+    "ticks": 13982,
+    "max_step_mm": 8.25,
+    "pose_finite": true,
+    "in_ws": true,
+    "dead_token_steps": 0,
+    "watchdog": 0,
+    "rejected_bad": 0,
+    "inbox_rejected": 0,
+    "after_ok": "30/30",
+    "fp_diff_example": {
+     "fibers": [
+      [
+       1,
+       2
+      ],
+      [
+       1,
+       3
+      ]
+     ],
+     "plugin_modules": [
+      [
+       "plugin_1",
+       "plugin_2"
+      ],
+      [
+       "plugin_1",
+       "plugin_3"
+      ]
+     ]
+    }
+   },
+   "leak": {
+    "n": 10,
+    "results": {
+     "rolled_back": 10
+    },
+    "identical": 0,
+    "late": 0,
+    "max_gap_ms": 56.115,
+    "ticks": 8653,
+    "max_step_mm": 8.25,
+    "pose_finite": true,
+    "in_ws": true,
+    "dead_token_steps": 0,
+    "watchdog": 0,
+    "rejected_bad": 0,
+    "inbox_rejected": 0,
+    "after_ok": "30/30",
+    "fp_diff_example": {
+     "threads": [
+      3,
+      4
+     ]
+    }
+   }
+  },
+  "e7_naive": {
+   "load_raise": {
+    "n": 5,
+    "results": {
+     "error": 5
+    },
+    "identical": 0,
+    "late": 0,
+    "dead_token_steps": 0,
+    "after_ok": "15/15",
+    "fp_diff_example": {
+     "registry_size": [
+      10,
+      11
+     ],
+     "naive_modules": [
+      [],
+      [
+       "plugin_naive_1"
+      ]
+     ]
+    }
+   },
+   "syntax": {
+    "n": 5,
+    "results": {
+     "error": 5
+    },
+    "identical": 0,
+    "late": 1,
+    "dead_token_steps": 0,
+    "after_ok": "15/15",
+    "fp_diff_example": {
+     "naive_modules": [
+      [],
+      [
+       "plugin_naive_1"
+      ]
+     ]
+    }
+   },
+   "tick_raise": {
+    "n": 5,
+    "results": {
+     "live": 5
+    },
+    "identical": 0,
+    "late": 4,
+    "dead_token_steps": 0,
+    "after_ok": "0/15",
+    "fp_diff_example": {
+     "registry_size": [
+      10,
+      11
+     ],
+     "naive_modules": [
+      [],
+      [
+       "plugin_naive_1"
+      ]
+     ]
+    }
+   },
+   "hang": {
+    "n": 5,
+    "results": {
+     "live": 5
+    },
+    "identical": 0,
+    "late": 0,
+    "dead_token_steps": 0,
+    "after_ok": "0/15",
+    "fp_diff_example": {
+     "registry_size": [
+      10,
+      11
+     ],
+     "naive_modules": [
+      [],
+      [
+       "plugin_naive_1"
+      ]
+     ]
+    }
+   },
+   "nan": {
+    "n": 5,
+    "results": {
+     "live": 5
+    },
+    "identical": 0,
+    "late": 1,
+    "dead_token_steps": 0,
+    "after_ok": "0/15",
+    "fp_diff_example": {
+     "registry_size": [
+      10,
+      11
+     ],
+     "naive_modules": [
+      [],
+      [
+       "plugin_naive_1"
+      ]
+     ]
+    }
+   },
+   "forged": {
+    "n": 5,
+    "results": {
+     "live": 5
+    },
+    "identical": 0,
+    "late": 1,
+    "dead_token_steps": 0,
+    "after_ok": "0/15",
+    "fp_diff_example": {
+     "registry_size": [
+      10,
+      11
+     ],
+     "naive_modules": [
+      [],
+      [
+       "plugin_naive_1"
+      ]
+     ]
+    }
+   },
+   "far": {
+    "n": 5,
+    "results": {
+     "live": 5
+    },
+    "identical": 0,
+    "late": 3,
+    "dead_token_steps": 0,
+    "after_ok": "0/15",
+    "fp_diff_example": {
+     "registry_size": [
+      10,
+      11
+     ],
+     "naive_modules": [
+      [],
+      [
+       "plugin_naive_1"
+      ]
+     ]
+    }
+   },
+   "slow": {
+    "n": 5,
+    "results": {
+     "live": 5
+    },
+    "identical": 0,
+    "late": 0,
+    "dead_token_steps": 0,
+    "after_ok": "15/15",
+    "fp_diff_example": {
+     "registry_size": [
+      10,
+      11
+     ],
+     "naive_modules": [
+      [],
+      [
+       "plugin_naive_1"
+      ]
+     ]
+    }
+   },
+   "halt_raises": {
+    "n": 5,
+    "results": {
+     "live": 5
+    },
+    "identical": 0,
+    "late": 1,
+    "dead_token_steps": 0,
+    "after_ok": "15/15",
+    "fp_diff_example": {
+     "registry_size": [
+      10,
+      11
+     ],
+     "naive_modules": [
+      [],
+      [
+       "plugin_naive_1"
+      ]
+     ]
+    }
+   },
+   "leak": {
+    "n": 5,
+    "results": {
+     "live": 5
+    },
+    "identical": 0,
+    "late": 0,
+    "dead_token_steps": 0,
+    "after_ok": "0/15",
+    "fp_diff_example": {
+     "registry_size": [
+      10,
+      11
+     ],
+     "naive_modules": [
+      [],
+      [
+       "plugin_naive_1"
+      ]
+     ],
+     "threads": [
+      3,
+      4
+     ]
+    }
+   }
+  },
+  "e8": {
+   "swap": {
+    "n": 10,
+    "fix_live_ms": [
+     198,
+     198,
+     198,
+     198,
+     198,
+     198,
+     198,
+     198,
+     198,
+     198
+    ],
+    "late": 2,
+    "max_gap_ms": 83.244,
+    "results": [
+     "kept",
+     "kept",
+     "kept",
+     "kept",
+     "kept",
+     "kept",
+     "kept",
+     "kept",
+     "kept",
+     "kept"
+    ]
+   },
+   "restart": {
+    "n": 10,
+    "fix_live_ms": [
+     19701,
+     19899,
+     19899,
+     20064,
+     20097,
+     20328,
+     20460,
+     20691,
+     21021,
+     22737
+    ],
+    "late": 2,
+    "max_gap_ms": 82.594,
+    "results": [
+     "restarted",
+     "restarted",
+     "restarted",
+     "restarted",
+     "restarted",
+     "restarted",
+     "restarted",
+     "restarted",
+     "restarted",
+     "restarted"
+    ]
+   }
+  },
+  "e9": {
+   "aim_x": {
+    "n": 5,
+    "fixed": 5,
+    "attempts": [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "attempt_results": [
+     [
+      "kept"
+     ],
+     [
+      "kept"
+     ],
+     [
+      "kept"
+     ],
+     [
+      "kept"
+     ],
+     [
+      "kept"
+     ]
+    ],
+    "llm_s": [
+     5.9,
+     13.0,
+     6.7,
+     4.0,
+     7.6
+    ],
+    "s_report_to_fix": [
+     25.2,
+     37.1,
+     25.4,
+     21.7,
+     25.2
+    ],
+    "late": 0,
+    "ticks": 8202,
+    "max_gap_ms": 55.872,
+    "after_ok": "15/15"
+   },
+   "height": {
+    "n": 5,
+    "fixed": 5,
+    "attempts": [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "attempt_results": [
+     [
+      "kept"
+     ],
+     [
+      "kept"
+     ],
+     [
+      "kept"
+     ],
+     [
+      "kept"
+     ],
+     [
+      "kept"
+     ]
+    ],
+    "llm_s": [
+     8.0,
+     9.6,
+     6.6,
+     5.6,
+     16.3
+    ],
+    "s_report_to_fix": [
+     33.3,
+     33.5,
+     25.5,
+     29.7,
+     41.4
+    ],
+    "late": 1,
+    "ticks": 9028,
+    "max_gap_ms": 65.995,
+    "after_ok": "15/15"
+   },
+   "swap_xy": {
+    "n": 5,
+    "fixed": 5,
+    "attempts": [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "attempt_results": [
+     [
+      "kept"
+     ],
+     [
+      "kept"
+     ],
+     [
+      "kept"
+     ],
+     [
+      "kept"
+     ],
+     [
+      "kept"
+     ]
+    ],
+    "llm_s": [
+     2.7,
+     6.9,
+     9.2,
+     2.3,
+     3.1
+    ],
+    "s_report_to_fix": [
+     21.6,
+     25.3,
+     33.5,
+     21.8,
+     21.6
+    ],
+    "late": 0,
+    "ticks": 7837,
+    "max_gap_ms": 46.565,
+    "after_ok": "15/15"
+   },
+   "sign_y": {
+    "n": 5,
+    "fixed": 5,
+    "attempts": [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "attempt_results": [
+     [
+      "kept"
+     ],
+     [
+      "kept"
+     ],
+     [
+      "kept"
+     ],
+     [
+      "kept"
+     ],
+     [
+      "kept"
+     ]
+    ],
+    "llm_s": [
+     5.8,
+     10.1,
+     7.4,
+     7.4,
+     9.1
+    ],
+    "s_report_to_fix": [
+     29.5,
+     29.4,
+     25.7,
+     25.8,
+     33.6
+    ],
+    "late": 1,
+    "ticks": 8465,
+    "max_gap_ms": 67.618,
+    "after_ok": "15/15"
+   },
+   "early_stop": {
+    "n": 5,
+    "fixed": 5,
+    "attempts": [
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "attempt_results": [
+     [
+      "kept"
+     ],
+     [
+      "kept"
+     ],
+     [
+      "kept"
+     ],
+     [
+      "kept"
+     ],
+     [
+      "kept"
+     ]
+    ],
+    "llm_s": [
+     19.7,
+     19.0,
+     10.5,
+     14.8,
+     41.0
+    ],
+    "s_report_to_fix": [
+     43.3,
+     43.1,
+     32.7,
+     34.2,
+     65.5
+    ],
+    "late": 1,
+    "ticks": 11506,
+    "max_gap_ms": 64.603,
+    "after_ok": "15/15"
+   }
+  }
+ },
+ "B": {
+  "t1": {
+   "normal_0.3s": {
+    "runs": 2,
+    "ticks": 3818,
+    "late": 0,
+    "max_gap_ms": 33.324,
+    "py_silent_ms": 33.63610000087647,
+    "episodes_ok": [
+     10,
+     10
+    ]
+   },
+   "vla_1s": {
+    "runs": 2,
+    "ticks": 3818,
+    "late": 0,
+    "max_gap_ms": 33.431,
+    "py_silent_ms": 33.67350000189617,
+    "episodes_ok": [
+     0,
+     0
+    ]
+   },
+   "vla_2s": {
+    "runs": 2,
+    "ticks": 3818,
+    "late": 0,
+    "max_gap_ms": 34.515,
+    "py_silent_ms": 33.61589999985881,
+    "episodes_ok": [
+     0,
+     0
+    ]
+   },
+   "gil_1s": {
+    "runs": 2,
+    "ticks": 3818,
+    "late": 0,
+    "max_gap_ms": 33.763,
+    "py_silent_ms": 2671.48250000173,
+    "episodes_ok": [
+     0,
+     0
+    ]
+   },
+   "plugin_throws": {
+    "runs": 2,
+    "ticks": 3818,
+    "late": 0,
+    "max_gap_ms": 34.101,
+    "py_silent_ms": 33.881199997267686,
+    "episodes_ok": [
+     7,
+     5
+    ]
+   },
+   "python_killed": {
+    "runs": 2,
+    "ticks": 3818,
+    "late": 0,
+    "max_gap_ms": 33.316,
+    "py_silent_ms": 0,
+    "episodes_ok": [
+     null,
+     null
+    ]
+   }
+  },
+  "t1_total": {
+   "ticks": 22908,
+   "late": 0,
+   "max_gap_ms": 34.515
+  },
+  "t2": {
+   "swap": {
+    "n": 10,
+    "late": 0,
+    "max_gap_ms": 39.934,
+    "fix_live_ms_median": 198.0,
+    "results": {
+     "kept": 10
+    },
+    "identical": 0,
+    "state_preserved": 10,
+    "after_ok": "30/30"
+   },
+   "restart": {
+    "n": 10,
+    "late": 0,
+    "max_gap_ms": 33.393,
+    "fix_live_ms_median": 528.0,
+    "results": {
+     "restarted": 10
+    },
+    "identical": 0,
+    "state_preserved": 0,
+    "after_ok": "30/30"
+   },
+   "bad_load": {
+    "n": 10,
+    "late": 0,
+    "max_gap_ms": 33.62,
+    "fix_live_ms_median": null,
+    "results": {
+     "FAILED": 10
+    },
+    "identical": 10,
+    "state_preserved": 0,
+    "after_ok": "0/20"
+   },
+   "bad_trial": {
+    "n": 10,
+    "late": 0,
+    "max_gap_ms": 33.645,
+    "fix_live_ms_median": 198.0,
+    "results": {
+     "rolled_back": 10
+    },
+    "identical": 10,
+    "state_preserved": 10,
+    "after_ok": "0/30"
+   },
+   "restart_bad_load": {
+    "n": 10,
+    "late": 0,
+    "max_gap_ms": 33.131,
+    "fix_live_ms_median": null,
+    "results": {
+     "runtime_failed_to_start": 10
+    },
+    "identical": 0,
+    "state_preserved": 0,
+    "after_ok": "0/0"
+   }
+  },
+  "t4": {
+   "n": 10,
+   "wait_ms": [
+    504,
+    509.0,
+    612
+   ],
+   "kept": 10,
+   "state_unchanged": 10,
+   "late": 0,
+   "max_hand_step_mm": 8.16,
+   "mismatch": 0,
+   "after_ok": "30/30"
+  },
+  "t6h": [
+   {
+    "case": "playing",
+    "trials": 40,
+    "state_at_halt": {
+     "queued": 0,
+     "playing": 40,
+     "none": 0
+    },
+    "acked": 40,
+    "ack_ms_median": 18.031600004178472,
+    "ack_ms_p95": 18.35690000007162,
+    "ack_ms_max": 18.389100005151704,
+    "stale_steps_after_ack_total": 0,
+    "stale_steps_after_request_max": 0,
+    "stale_steps_after_request_total": 0,
+    "stale_steps_total_queued_case": null,
+    "fresh_played": 40,
+    "late_ticks": 0,
+    "ticks": 1612,
+    "t": 1790494271.1452713
+   },
+   {
+    "case": "queued",
+    "trials": 40,
+    "state_at_halt": {
+     "queued": 40,
+     "playing": 0,
+     "none": 0
+    },
+    "acked": 40,
+    "ack_ms_median": 32.831000004080124,
+    "ack_ms_p95": 33.094600003096275,
+    "ack_ms_max": 33.10570000030566,
+    "stale_steps_after_ack_total": 0,
+    "stale_steps_after_request_max": 0,
+    "stale_steps_after_request_total": 0,
+    "stale_steps_total_queued_case": 0,
+    "fresh_played": 40,
+    "late_ticks": 0,
+    "ticks": 1813,
+    "t": 1790494338.8206697
+   }
+  ],
+  "t3": {
+   "a1_reply_after_cancel_never_plays": {
+    "trials": 40,
+    "pass": 40,
+    "inbox_rejected": 40
+   },
+   "a2_forced_stale_chunk_never_plays": {
+    "trials": 40,
+    "pass": 40
+   },
+   "b1_halt_queued_chunk_never_plays": {
+    "trials": 40,
+    "pass": 40,
+    "ticks_from_write_to_hold": [
+     1
+    ],
+    "steps_played_per_trial": [
+     0
+    ]
+   },
+   "b2_halt_playing_chunk_stops": {
+    "trials": 40,
+    "pass": 40,
+    "ticks_from_write_to_hold": [
+     1
+    ],
+    "steps_played_per_trial": [
+     11,
+     12
+    ]
+   },
+   "c_log_matches_sent_chunks": {
+    "rows_checked": 463,
+    "mismatches": 0
+   }
+  }
+ }
+}

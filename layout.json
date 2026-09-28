@@ -1,0 +1,315 @@
+{
+ "max_steps": 50,
+ "act": 7,
+ "total": 8192,
+ "command": {
+  "seq": {
+   "offset": 0,
+   "type": "u64",
+   "n": 1
+  },
+  "boot_id": {
+   "offset": 8,
+   "type": "u64",
+   "n": 1
+  },
+  "heartbeat": {
+   "offset": 16,
+   "type": "u64",
+   "n": 1
+  },
+  "chunk_id": {
+   "offset": 24,
+   "type": "u64",
+   "n": 1
+  },
+  "built_on": {
+   "offset": 32,
+   "type": "u64",
+   "n": 1
+  },
+  "start_tick": {
+   "offset": 40,
+   "type": "i64",
+   "n": 1
+  },
+  "owner": {
+   "offset": 48,
+   "type": "u64",
+   "n": 1
+  },
+  "steps_used": {
+   "offset": 56,
+   "type": "u64",
+   "n": 1
+  },
+  "token": {
+   "offset": 64,
+   "type": "u64",
+   "n": 1
+  },
+  "node_id": {
+   "offset": 72,
+   "type": "u64",
+   "n": 1
+  },
+  "reset_seq": {
+   "offset": 80,
+   "type": "u64",
+   "n": 1
+  },
+  "reset_cube": {
+   "offset": 88,
+   "type": "f64",
+   "n": 3
+  },
+  "quit": {
+   "offset": 112,
+   "type": "u64",
+   "n": 1
+  },
+  "py_session": {
+   "offset": 120,
+   "type": "u64",
+   "n": 1
+  },
+  "halt_seq": {
+   "offset": 128,
+   "type": "u64",
+   "n": 1
+  },
+  "halt_token": {
+   "offset": 136,
+   "type": "u64",
+   "n": 1
+  },
+  "actions": {
+   "offset": 144,
+   "type": "f64",
+   "n": 350
+  }
+ },
+ "state": {
+  "seq": {
+   "offset": 4096,
+   "type": "u64",
+   "n": 1
+  },
+  "boot_id": {
+   "offset": 4104,
+   "type": "u64",
+   "n": 1
+  },
+  "tick": {
+   "offset": 4112,
+   "type": "i64",
+   "n": 1
+  },
+  "pose": {
+   "offset": 4120,
+   "type": "f64",
+   "n": 7
+  },
+  "last_cmd": {
+   "offset": 4176,
+   "type": "f64",
+   "n": 7
+  },
+  "last_chunk_seen": {
+   "offset": 4232,
+   "type": "u64",
+   "n": 1
+  },
+  "chunk_playing": {
+   "offset": 4240,
+   "type": "u64",
+   "n": 1
+  },
+  "chunk_queued": {
+   "offset": 4248,
+   "type": "u64",
+   "n": 1
+  },
+  "step_playing": {
+   "offset": 4256,
+   "type": "i64",
+   "n": 1
+  },
+  "reason": {
+   "offset": 4264,
+   "type": "u64",
+   "n": 1
+  },
+  "cube": {
+   "offset": 4272,
+   "type": "f64",
+   "n": 3
+  },
+  "cube_attached": {
+   "offset": 4296,
+   "type": "u64",
+   "n": 1
+  },
+  "bowl": {
+   "offset": 4304,
+   "type": "f64",
+   "n": 3
+  },
+  "successes": {
+   "offset": 4328,
+   "type": "u64",
+   "n": 1
+  },
+  "releases": {
+   "offset": 4336,
+   "type": "u64",
+   "n": 1
+  },
+  "heartbeat_seen": {
+   "offset": 4344,
+   "type": "u64",
+   "n": 1
+  },
+  "halt_floor": {
+   "offset": 4352,
+   "type": "u64",
+   "n": 1
+  },
+  "halt_ack": {
+   "offset": 4360,
+   "type": "u64",
+   "n": 1
+  },
+  "halt_ack_tick": {
+   "offset": 4368,
+   "type": "i64",
+   "n": 1
+  },
+  "rejected_bad": {
+   "offset": 4376,
+   "type": "u64",
+   "n": 1
+  },
+  "rejected_halted": {
+   "offset": 4384,
+   "type": "u64",
+   "n": 1
+  },
+  "session_seen": {
+   "offset": 4392,
+   "type": "u64",
+   "n": 1
+  }
+ },
+ "reasons": {
+  "0": "idle",
+  "1": "play",
+  "2": "hold_empty",
+  "3": "hold_owner_none",
+  "4": "hold_heartbeat",
+  "5": "blend",
+  "6": "hold_halted"
+ },
+ "plant": {
+  "r_seq": {
+   "offset": 6144,
+   "type": "u64",
+   "n": 1
+  },
+  "r_tick": {
+   "offset": 6152,
+   "type": "i64",
+   "n": 1
+  },
+  "r_quit": {
+   "offset": 6160,
+   "type": "u64",
+   "n": 1
+  },
+  "r_target": {
+   "offset": 6168,
+   "type": "f64",
+   "n": 6
+  },
+  "p_seq": {
+   "offset": 6216,
+   "type": "u64",
+   "n": 1
+  },
+  "p_step": {
+   "offset": 6224,
+   "type": "u64",
+   "n": 1
+  },
+  "p_time": {
+   "offset": 6232,
+   "type": "f64",
+   "n": 1
+  },
+  "p_qpos": {
+   "offset": 6240,
+   "type": "f64",
+   "n": 6
+  },
+  "p_qvel": {
+   "offset": 6288,
+   "type": "f64",
+   "n": 6
+  },
+  "p_dist": {
+   "offset": 6336,
+   "type": "f64",
+   "n": 1
+  },
+  "p_rtf": {
+   "offset": 6344,
+   "type": "f64",
+   "n": 1
+  },
+  "p_force": {
+   "offset": 6352,
+   "type": "f64",
+   "n": 1
+  },
+  "p_cube": {
+   "offset": 6360,
+   "type": "f64",
+   "n": 3
+  },
+  "p_bowl": {
+   "offset": 6384,
+   "type": "f64",
+   "n": 3
+  },
+  "p_tip": {
+   "offset": 6408,
+   "type": "f64",
+   "n": 3
+  },
+  "p_cube_yaw": {
+   "offset": 6432,
+   "type": "f64",
+   "n": 1
+  },
+  "p_resets": {
+   "offset": 6440,
+   "type": "u64",
+   "n": 1
+  },
+  "r_act": {
+   "offset": 6448,
+   "type": "f64",
+   "n": 7
+  },
+  "p_lstate": {
+   "offset": 6504,
+   "type": "f64",
+   "n": 7
+  },
+  "r_ring": {
+   "offset": 6560,
+   "type": "f64",
+   "n": 112
+  }
+ }
+}

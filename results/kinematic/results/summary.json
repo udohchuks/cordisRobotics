@@ -1,0 +1,290 @@
+{
+ "t2": {
+  "restart": {
+   "runs": 20,
+   "missed_total": 3,
+   "gaps_over_1_tick_total": 3,
+   "max_gap_ms_max": 70.675,
+   "ms_to_fixed_chunk_median": 264.0,
+   "ms_to_success_median": 4158.0,
+   "state_preserved": 0,
+   "identical_after": 0,
+   "results": {
+    "restarted": 20
+   },
+   "episodes_after_ok_total": 60,
+   "episodes_after_total": 60,
+   "plugins_reloaded": 2
+  },
+  "swap": {
+   "runs": 20,
+   "missed_total": 2,
+   "gaps_over_1_tick_total": 2,
+   "max_gap_ms_max": 71.218,
+   "ms_to_fixed_chunk_median": 198.0,
+   "ms_to_success_median": 4092.0,
+   "state_preserved": 20,
+   "identical_after": 0,
+   "results": {
+    "kept": 20
+   },
+   "episodes_after_ok_total": 60,
+   "episodes_after_total": 60,
+   "plugins_reloaded": 1
+  },
+  "bad_load": {
+   "runs": 20,
+   "missed_total": 0,
+   "gaps_over_1_tick_total": 0,
+   "max_gap_ms_max": 59.728,
+   "ms_to_fixed_chunk_median": null,
+   "ms_to_success_median": null,
+   "state_preserved": 0,
+   "identical_after": 20,
+   "results": {
+    "FAILED": 20
+   },
+   "episodes_after_ok_total": 0,
+   "episodes_after_total": 40,
+   "plugins_reloaded": 1
+  },
+  "bad_trial": {
+   "runs": 20,
+   "missed_total": 3,
+   "gaps_over_1_tick_total": 2,
+   "max_gap_ms_max": 86.465,
+   "ms_to_fixed_chunk_median": 198.0,
+   "ms_to_success_median": null,
+   "state_preserved": 20,
+   "identical_after": 20,
+   "results": {
+    "rolled_back": 20
+   },
+   "episodes_after_ok_total": 0,
+   "episodes_after_total": 60,
+   "plugins_reloaded": 1
+  },
+  "restart_bad_load": {
+   "runs": 20,
+   "missed_total": 0,
+   "gaps_over_1_tick_total": 0,
+   "max_gap_ms_max": 33.247,
+   "ms_to_fixed_chunk_median": null,
+   "ms_to_success_median": null,
+   "state_preserved": 0,
+   "identical_after": 0,
+   "results": {
+    "runtime_failed_to_start": 20
+   },
+   "episodes_after_ok_total": 0,
+   "episodes_after_total": 0,
+   "plugins_reloaded": 2
+  }
+ },
+ "t1": {
+  "normal_0.3s": {
+   "ours_ticks": 5727,
+   "ours_missed": 3,
+   "ours_gaps_over_1_tick": 3,
+   "ours_max_gap_ms": 71.359,
+   "ours_late_p99_ms": 1.119,
+   "python_max_gap_ms": 67.86248000025807,
+   "ours_episodes_ok": [
+    10,
+    10,
+    10
+   ],
+   "sync_max_gap_ms": 374.16975700034527,
+   "sync_gaps_over_1_tick": 16,
+   "threaded_max_gap_ms": 63.27044299996487,
+   "threaded_gaps_over_1_tick": 0
+  },
+  "vla_1s": {
+   "ours_ticks": 5727,
+   "ours_missed": 1,
+   "ours_gaps_over_1_tick": 1,
+   "ours_max_gap_ms": 78.372,
+   "ours_late_p99_ms": 0.841,
+   "python_max_gap_ms": 89.88254300038534,
+   "ours_episodes_ok": [
+    0,
+    0,
+    0
+   ],
+   "sync_max_gap_ms": 1033.3179330000348,
+   "sync_gaps_over_1_tick": 11,
+   "threaded_max_gap_ms": 54.669158999786305,
+   "threaded_gaps_over_1_tick": 0
+  },
+  "vla_2s": {
+   "ours_ticks": 5727,
+   "ours_missed": 1,
+   "ours_gaps_over_1_tick": 1,
+   "ours_max_gap_ms": 71.831,
+   "ours_late_p99_ms": 0.842,
+   "python_max_gap_ms": 65.45127800018236,
+   "ours_episodes_ok": [
+    0,
+    0,
+    0
+   ],
+   "sync_max_gap_ms": 2033.307197000795,
+   "sync_gaps_over_1_tick": 8,
+   "threaded_max_gap_ms": 61.93052299931878,
+   "threaded_gaps_over_1_tick": 0
+  },
+  "gil_1s": {
+   "ours_ticks": 5727,
+   "ours_missed": 1,
+   "ours_gaps_over_1_tick": 1,
+   "ours_max_gap_ms": 68.309,
+   "ours_late_p99_ms": 0.594,
+   "python_max_gap_ms": 1399.3991520001146,
+   "ours_episodes_ok": [
+    0,
+    0,
+    0
+   ],
+   "sync_max_gap_ms": 1338.593989000401,
+   "sync_gaps_over_1_tick": 10,
+   "threaded_max_gap_ms": 1317.0962840003995,
+   "threaded_gaps_over_1_tick": 19
+  },
+  "plugin_throws": {
+   "ours_ticks": 5727,
+   "ours_missed": 0,
+   "ours_gaps_over_1_tick": 0,
+   "ours_max_gap_ms": 61.651,
+   "ours_late_p99_ms": 2.511,
+   "python_max_gap_ms": 72.2139720000996,
+   "ours_episodes_ok": [
+    1,
+    0,
+    4
+   ],
+   "sync_max_gap_ms": 30000,
+   "sync_gaps_over_1_tick": 1,
+   "threaded_max_gap_ms": 35.079504000350425,
+   "threaded_gaps_over_1_tick": 0
+  },
+  "python_killed": {
+   "ours_ticks": 5727,
+   "ours_missed": 2,
+   "ours_gaps_over_1_tick": 1,
+   "ours_max_gap_ms": 72.896,
+   "ours_late_p99_ms": 1.068,
+   "python_max_gap_ms": 0,
+   "ours_episodes_ok": [
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "t3": {
+  "a1_reply_after_cancel_never_plays": {
+   "trials": 50,
+   "pass": 50,
+   "inbox_rejected": 50
+  },
+  "a2_forced_stale_chunk_never_plays": {
+   "trials": 50,
+   "pass": 50
+  },
+  "b1_halt_queued_chunk_never_plays": {
+   "trials": 50,
+   "pass": 50,
+   "ticks_from_write_to_hold": [
+    1
+   ],
+   "steps_played_per_trial": [
+    0
+   ]
+  },
+  "b2_halt_playing_chunk_stops": {
+   "trials": 50,
+   "pass": 50,
+   "ticks_from_write_to_hold": [
+    1
+   ],
+   "steps_played_per_trial": [
+    12,
+    13
+   ]
+  },
+  "c_log_matches_sent_chunks": {
+   "rows_checked": 605,
+   "mismatches": 0
+  }
+ },
+ "t2_leak": {
+  "cycles": 100,
+  "failed_load_cycles": 100,
+  "failed_loads_marked_failed": 100,
+  "before": {
+   "registry_size": 10,
+   "live": {
+    "perceive": 1,
+    "cube_near_seen": 2,
+    "cube_in_gripper": 3,
+    "cube_in_bowl": 4,
+    "carry": 5,
+    "retreat": 6,
+    "recover": 7,
+    "place": 8,
+    "vla_grasp": 9,
+    "approach": 10
+   },
+   "fibers": 2,
+   "plugin_modules": 2,
+   "threads": 1,
+   "py_bytes": 1377
+  },
+  "during_one_load": {
+   "registry_size": 11,
+   "live": {
+    "perceive": 1,
+    "cube_near_seen": 2,
+    "cube_in_gripper": 3,
+    "cube_in_bowl": 4,
+    "carry": 5,
+    "retreat": 6,
+    "recover": 7,
+    "place": 8,
+    "vla_grasp": 9,
+    "approach": 10
+   },
+   "fibers": 3,
+   "plugin_modules": 3,
+   "threads": 1,
+   "py_bytes": 9548
+  },
+  "after": {
+   "registry_size": 10,
+   "live": {
+    "perceive": 1,
+    "cube_near_seen": 2,
+    "cube_in_gripper": 3,
+    "cube_in_bowl": 4,
+    "carry": 5,
+    "retreat": 6,
+    "recover": 7,
+    "place": 8,
+    "vla_grasp": 9,
+    "approach": 10
+   },
+   "fibers": 2,
+   "plugin_modules": 2,
+   "threads": 1,
+   "py_bytes": 22978
+  },
+  "bytes_per_cycle": 108.005,
+  "structures_back_to_start": {
+   "registry_size": true,
+   "live": true,
+   "fibers": true,
+   "plugin_modules": true,
+   "threads": true
+  }
+ }
+}

@@ -1,0 +1,366 @@
+{
+ "normal_0.3s": {
+  "ours": [
+   {
+    "ticks": 1909,
+    "missed": 1,
+    "late_p50_ms": 0.102,
+    "late_p99_ms": 0.367,
+    "late_max_ms": 38.448,
+    "max_gap_ms": 71.359,
+    "hold_ticks": 140,
+    "gaps_over_1_tick": 1,
+    "swap": {},
+    "tree_tick_ms_max": 0.40046100002655294,
+    "inbox_rejected": 0,
+    "py_max_gap_ms": 67.86248000025807,
+    "errors": 0,
+    "episodes_ok": 10
+   },
+   {
+    "ticks": 1909,
+    "missed": 2,
+    "late_p50_ms": 0.101,
+    "late_p99_ms": 1.119,
+    "late_max_ms": 37.814,
+    "max_gap_ms": 70.701,
+    "hold_ticks": 141,
+    "gaps_over_1_tick": 2,
+    "swap": {},
+    "tree_tick_ms_max": 0.876328999765974,
+    "inbox_rejected": 0,
+    "py_max_gap_ms": 55.57960200076195,
+    "errors": 0,
+    "episodes_ok": 10
+   },
+   {
+    "ticks": 1909,
+    "missed": 0,
+    "late_p50_ms": 0.101,
+    "late_p99_ms": 0.404,
+    "late_max_ms": 25.081,
+    "max_gap_ms": 57.914,
+    "hold_ticks": 137,
+    "gaps_over_1_tick": 0,
+    "swap": {},
+    "tree_tick_ms_max": 0.516746999892348,
+    "inbox_rejected": 0,
+    "py_max_gap_ms": 53.163724999649276,
+    "errors": 0,
+    "episodes_ok": 10
+   }
+  ],
+  "sync": {
+   "sends": 777,
+   "expected": 909,
+   "missed": 16,
+   "max_gap_ms": 374.16975700034527,
+   "gaps_over_1_tick": 16
+  },
+  "threaded": {
+   "sends": 910,
+   "expected": 909,
+   "missed": 0,
+   "max_gap_ms": 63.27044299996487,
+   "gaps_over_1_tick": 0
+  }
+ },
+ "vla_1s": {
+  "ours": [
+   {
+    "ticks": 1909,
+    "missed": 1,
+    "late_p50_ms": 0.105,
+    "late_p99_ms": 0.841,
+    "late_max_ms": 45.472,
+    "max_gap_ms": 78.372,
+    "hold_ticks": 1047,
+    "gaps_over_1_tick": 1,
+    "swap": {},
+    "tree_tick_ms_max": 0.5522390001715394,
+    "inbox_rejected": 0,
+    "py_max_gap_ms": 62.002296000173374,
+    "errors": 0,
+    "episodes_ok": 0
+   },
+   {
+    "ticks": 1909,
+    "missed": 0,
+    "late_p50_ms": 0.108,
+    "late_p99_ms": 0.495,
+    "late_max_ms": 21.664,
+    "max_gap_ms": 54.536,
+    "hold_ticks": 1045,
+    "gaps_over_1_tick": 0,
+    "swap": {},
+    "tree_tick_ms_max": 0.5126989999553189,
+    "inbox_rejected": 0,
+    "py_max_gap_ms": 65.85086599989154,
+    "errors": 0,
+    "episodes_ok": 0
+   },
+   {
+    "ticks": 1909,
+    "missed": 0,
+    "late_p50_ms": 0.105,
+    "late_p99_ms": 0.455,
+    "late_max_ms": 28.362,
+    "max_gap_ms": 61.247,
+    "hold_ticks": 1046,
+    "gaps_over_1_tick": 0,
+    "swap": {},
+    "tree_tick_ms_max": 0.4697719996329397,
+    "inbox_rejected": 0,
+    "py_max_gap_ms": 89.88254300038534,
+    "errors": 0,
+    "episodes_ok": 0
+   }
+  ],
+  "sync": {
+   "sends": 558,
+   "expected": 909,
+   "missed": 11,
+   "max_gap_ms": 1033.3179330000348,
+   "gaps_over_1_tick": 11
+  },
+  "threaded": {
+   "sends": 910,
+   "expected": 909,
+   "missed": 0,
+   "max_gap_ms": 54.669158999786305,
+   "gaps_over_1_tick": 0
+  }
+ },
+ "vla_2s": {
+  "ours": [
+   {
+    "ticks": 1909,
+    "missed": 0,
+    "late_p50_ms": 0.103,
+    "late_p99_ms": 0.842,
+    "late_max_ms": 29.313,
+    "max_gap_ms": 62.206,
+    "hold_ticks": 1148,
+    "gaps_over_1_tick": 0,
+    "swap": {},
+    "tree_tick_ms_max": 0.6701729998894734,
+    "inbox_rejected": 0,
+    "py_max_gap_ms": 65.45127800018236,
+    "errors": 0,
+    "episodes_ok": 0
+   },
+   {
+    "ticks": 1909,
+    "missed": 0,
+    "late_p50_ms": 0.101,
+    "late_p99_ms": 0.46,
+    "late_max_ms": 4.502,
+    "max_gap_ms": 37.384,
+    "hold_ticks": 1146,
+    "gaps_over_1_tick": 0,
+    "swap": {},
+    "tree_tick_ms_max": 2.089152999360522,
+    "inbox_rejected": 0,
+    "py_max_gap_ms": 49.02002399921912,
+    "errors": 0,
+    "episodes_ok": 0
+   },
+   {
+    "ticks": 1909,
+    "missed": 1,
+    "late_p50_ms": 0.102,
+    "late_p99_ms": 0.477,
+    "late_max_ms": 38.927,
+    "max_gap_ms": 71.831,
+    "hold_ticks": 1145,
+    "gaps_over_1_tick": 1,
+    "swap": {},
+    "tree_tick_ms_max": 0.6355210007313872,
+    "inbox_rejected": 0,
+    "py_max_gap_ms": 60.93665600019449,
+    "errors": 0,
+    "episodes_ok": 0
+   }
+  ],
+  "sync": {
+   "sends": 401,
+   "expected": 909,
+   "missed": 8,
+   "max_gap_ms": 2033.307197000795,
+   "gaps_over_1_tick": 8
+  },
+  "threaded": {
+   "sends": 910,
+   "expected": 909,
+   "missed": 0,
+   "max_gap_ms": 61.93052299931878,
+   "gaps_over_1_tick": 0
+  }
+ },
+ "gil_1s": {
+  "ours": [
+   {
+    "ticks": 1909,
+    "missed": 0,
+    "late_p50_ms": 0.116,
+    "late_p99_ms": 0.487,
+    "late_max_ms": 28.454,
+    "max_gap_ms": 61.342,
+    "hold_ticks": 1085,
+    "gaps_over_1_tick": 0,
+    "swap": {},
+    "tree_tick_ms_max": 1326.1377059998267,
+    "inbox_rejected": 0,
+    "py_max_gap_ms": 1348.7249440004234,
+    "errors": 0,
+    "episodes_ok": 0
+   },
+   {
+    "ticks": 1909,
+    "missed": 1,
+    "late_p50_ms": 0.11,
+    "late_p99_ms": 0.594,
+    "late_max_ms": 35.409,
+    "max_gap_ms": 68.309,
+    "hold_ticks": 921,
+    "gaps_over_1_tick": 1,
+    "swap": {},
+    "tree_tick_ms_max": 1085.8202439994784,
+    "inbox_rejected": 0,
+    "py_max_gap_ms": 1319.7577529999762,
+    "errors": 0,
+    "episodes_ok": 0
+   },
+   {
+    "ticks": 1909,
+    "missed": 0,
+    "late_p50_ms": 0.096,
+    "late_p99_ms": 0.421,
+    "late_max_ms": 19.613,
+    "max_gap_ms": 52.431,
+    "hold_ticks": 914,
+    "gaps_over_1_tick": 0,
+    "swap": {},
+    "tree_tick_ms_max": 1237.6889099996333,
+    "inbox_rejected": 0,
+    "py_max_gap_ms": 1399.3991520001146,
+    "errors": 0,
+    "episodes_ok": 0
+   }
+  ],
+  "sync": {
+   "sends": 537,
+   "expected": 909,
+   "missed": 10,
+   "max_gap_ms": 1338.593989000401,
+   "gaps_over_1_tick": 10
+  },
+  "threaded": {
+   "sends": 944,
+   "expected": 909,
+   "missed": 19,
+   "max_gap_ms": 1317.0962840003995,
+   "gaps_over_1_tick": 19
+  }
+ },
+ "plugin_throws": {
+  "ours": [
+   {
+    "ticks": 1909,
+    "missed": 0,
+    "late_p50_ms": 0.101,
+    "late_p99_ms": 0.408,
+    "late_max_ms": 16.958,
+    "max_gap_ms": 49.856,
+    "hold_ticks": 1155,
+    "gaps_over_1_tick": 0,
+    "swap": {},
+    "tree_tick_ms_max": 0.7810489996700198,
+    "inbox_rejected": 0,
+    "py_max_gap_ms": 58.12323300051503,
+    "errors": 25,
+    "episodes_ok": 1
+   },
+   {
+    "ticks": 1909,
+    "missed": 0,
+    "late_p50_ms": 0.098,
+    "late_p99_ms": 0.575,
+    "late_max_ms": 22.038,
+    "max_gap_ms": 54.95,
+    "hold_ticks": 1379,
+    "gaps_over_1_tick": 0,
+    "swap": {},
+    "tree_tick_ms_max": 0.7171520001065801,
+    "inbox_rejected": 0,
+    "py_max_gap_ms": 52.47742899973673,
+    "errors": 21,
+    "episodes_ok": 0
+   },
+   {
+    "ticks": 1909,
+    "missed": 0,
+    "late_p50_ms": 0.104,
+    "late_p99_ms": 2.511,
+    "late_max_ms": 28.724,
+    "max_gap_ms": 61.651,
+    "hold_ticks": 219,
+    "gaps_over_1_tick": 0,
+    "swap": {},
+    "tree_tick_ms_max": 2.3160559994721552,
+    "inbox_rejected": 0,
+    "py_max_gap_ms": 72.2139720000996,
+    "errors": 36,
+    "episodes_ok": 4
+   }
+  ],
+  "sync": {
+   "sends": 0,
+   "expected": 909,
+   "missed": 1,
+   "max_gap_ms": 30000,
+   "gaps_over_1_tick": 1
+  },
+  "threaded": {
+   "sends": 910,
+   "expected": 909,
+   "missed": 0,
+   "max_gap_ms": 35.079504000350425,
+   "gaps_over_1_tick": 0
+  }
+ },
+ "python_killed": {
+  "ours": [
+   {
+    "ticks": 1909,
+    "missed": 0,
+    "late_p50_ms": 0.1,
+    "late_p99_ms": 0.568,
+    "late_max_ms": 30.815,
+    "max_gap_ms": 63.705,
+    "hold_ticks": 1005,
+    "gaps_over_1_tick": 0
+   },
+   {
+    "ticks": 1909,
+    "missed": 0,
+    "late_p50_ms": 0.103,
+    "late_p99_ms": 0.741,
+    "late_max_ms": 30.766,
+    "max_gap_ms": 63.585,
+    "hold_ticks": 1005,
+    "gaps_over_1_tick": 0
+   },
+   {
+    "ticks": 1909,
+    "missed": 2,
+    "late_p50_ms": 0.11,
+    "late_p99_ms": 1.068,
+    "late_max_ms": 43.271,
+    "max_gap_ms": 72.896,
+    "hold_ticks": 1005,
+    "gaps_over_1_tick": 1
+   }
+  ]
+ }
+}

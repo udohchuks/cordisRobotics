@@ -1,0 +1,7 @@
+numpy
+mujoco
+matplotlib
+imageio[ffmpeg]
+pillow
+# LIBERO scenario only:
+lerobot[smolvla,libero]

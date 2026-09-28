@@ -1,0 +1,37 @@
+{
+ "duration_min": 54.3,
+ "agent_calls": 16,
+ "agent_latency_s": [
+  57.6,
+  143.3
+ ],
+ "reasoning_chars_total": 692244,
+ "batches_sent": 15,
+ "batches_rejected_at_load": 1,
+ "trials": {
+  "rolled_back": 13
+ },
+ "early_rejects": {
+  "plugin_error": 1
+ },
+ "safety_halts": 0,
+ "plugin_errors": 1,
+ "vla_calls": 13,
+ "vla_outcomes": {
+  "budget_exhausted": 7,
+  "done": 4,
+  "null": 2
+ },
+ "vla_infer_s_median": 3.16,
+ "goal_facts_first_true_s": {},
+ "goal_reached": false,
+ "rust_ticks": 13700,
+ "rust_late_ticks(>1 period)": 0,
+ "rust_lateness_ms_p99_max": [
+  0.52,
+  33.14
+ ],
+ "plant_steps": 12814,
+ "plant_skipped_ticks": 886,
+ "runtime_restarts": 0
+}

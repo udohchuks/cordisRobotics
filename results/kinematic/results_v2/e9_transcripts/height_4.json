@@ -1,0 +1,63 @@
+{
+ "bug": "height",
+ "run": 4,
+ "model": "deepseek-flash",
+ "attempts": [
+  {
+   "attempt": 0,
+   "llm_s": 16.3,
+   "usage": {
+    "prompt_tokens": 823,
+    "completion_tokens": 3781,
+    "total_tokens": 4604,
+    "prompt_tokens_details": {
+     "cached_tokens": 256
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3649
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 567
+   },
+   "episodes_during_llm": 4,
+   "load_state": "ACTIVE",
+   "error": null,
+   "result": "kept",
+   "trial": [
+    true,
+    true,
+    true
+   ],
+   "identical_after": false,
+   "code": "\"\"\"Plugin: approach (code). Drives above the seen cube to the handoff point.\"\"\"\nfrom basics import MoveTo\n\nVERSION = 2\n\n\nclass Approach(MoveTo):\n    def waypoints(self, snap):\n        c = self.ctx.blackboard.get(\"cube_seen\")\n        if c is None:\n            return []\n        handoff_height = self.s.get(\"handoff_height\", 0.05)\n        return [[c[0], c[1], c[2] + handoff_height]]\n\n\ndef apply(ctx, config):\n    yield ctx.registry.register(\"approach\", VERSION, Approach)\n"
+  }
+ ],
+ "fixed": true,
+ "after_ok": [
+  true,
+  true,
+  true
+ ],
+ "ticks": 2062,
+ "late": 1,
+ "max_gap_ms": 65.995,
+ "dead_token_steps": 0,
+ "s_report_to_fix": 41.4,
+ "episodes": [
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  false
+ ],
+ "s_total": 67.8
+}

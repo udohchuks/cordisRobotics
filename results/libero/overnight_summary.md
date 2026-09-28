@@ -1,0 +1,8 @@
+# Overnight: LLM agent + real VLA in the LIBERO kitchen (28 Sep)
+
+Setup: LIBERO-Goal kitchen (MuJoCo, Franka arm). The real SmolVLA (HuggingFaceVLA/smolvla_libero, no training) runs on the same CPU. DeepSeek-V4.1-Flash gets one goal: "bowl on the stove with the stove on, wine bottle on the rack". It plans, writes its own skills as plugins, and revises them from reports. Rust ticks at 4 Hz; the scene runs at about 0.25x real time on this CPU.
+
+Run 1 (54 min, stopped early by me to fix helper limits): 16 agent replies, 15 batches; 1 rejected at load (syntax error), 13 rolled back, 0 kept, 1 still on trial when stopped. No goal fact reached.
+Run 2 (150 min, full length): 21 agent replies, 21 batches; 1 rejected at load, 18 rolled back, 1 kept, 1 still on trial at time-up. Goal facts reached: the bowl on the stove (at 13 min), by the agent's own code (version 4 skills) carrying a bowl that the VLA skill pick_bowl version 3 had picked up in the batch before, which was rolled back. Stove and bottle never achieved: 15 of 17 VLA calls in run 2 ran out of budget.
+Runtime (both runs): never restarted; 0 Rust ticks late by more than one period (49,766 ticks; worst lateness 92 ms, p99 0.6 ms at a 250 ms period). The plant missed 2-7% of ticks (a skipped tick repeats no command). No safety halts: in both runs the agent put the bowl before the stove, so the hot-stove rule never had to fire.
+Agent behaviour seen in its reasoning: planned the bowl-before-stove order to respect the safety rule; tried rewording VLA instructions; switched to hand-coded grasps when the VLA failed; used gripper width to detect a held bottle.

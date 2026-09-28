@@ -1,0 +1,62 @@
+{
+ "bug": "aim_x",
+ "run": 1,
+ "model": "deepseek-flash",
+ "attempts": [
+  {
+   "attempt": 0,
+   "llm_s": 13.0,
+   "usage": {
+    "prompt_tokens": 827,
+    "completion_tokens": 2656,
+    "total_tokens": 3483,
+    "prompt_tokens_details": {
+     "cached_tokens": 256
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 2518
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 571
+   },
+   "episodes_during_llm": 3,
+   "load_state": "ACTIVE",
+   "error": null,
+   "result": "kept",
+   "trial": [
+    true,
+    true,
+    true
+   ],
+   "identical_after": false,
+   "code": "\"\"\"Plugin: approach (code). Drives above the seen cube to the handoff point.\"\"\"\nfrom basics import MoveTo\n\nVERSION = 1\n\n\nclass Approach(MoveTo):\n    def waypoints(self, snap):\n        c = self.ctx.blackboard.get(\"cube_seen\")\n        # Hand off directly above the cube centre so the learned grasp can\n        # move straight down and close within tolerance of the cube centre.\n        return [[c[0], c[1], c[2] + self.s[\"handoff_height\"]]]\n\n\ndef apply(ctx, config):\n    yield ctx.registry.register(\"approach\", VERSION, Approach)\n"
+  }
+ ],
+ "fixed": true,
+ "after_ok": [
+  true,
+  true,
+  true
+ ],
+ "ticks": 1948,
+ "late": 0,
+ "max_gap_ms": 43.463,
+ "dead_token_steps": 0,
+ "s_report_to_fix": 37.1,
+ "episodes": [
+  false,
+  false,
+  false,
+  false,
+  false,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  false
+ ],
+ "s_total": 64.0
+}

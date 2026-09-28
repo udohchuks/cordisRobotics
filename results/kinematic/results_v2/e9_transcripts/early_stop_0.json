@@ -1,0 +1,169 @@
+{
+ "bug": "early_stop",
+ "run": 0,
+ "model": "deepseek-flash",
+ "attempts": [
+  {
+   "attempt": 0,
+   "llm_s": 19.7,
+   "usage": {
+    "prompt_tokens": 909,
+    "completion_tokens": 4491,
+    "total_tokens": 5400,
+    "prompt_tokens_details": {
+     "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 4382
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 781
+   },
+   "episodes_during_llm": 5,
+   "load_state": "ACTIVE",
+   "error": null,
+   "result": "kept",
+   "trial": [
+    true,
+    true,
+    true
+   ],
+   "identical_after": false,
+   "code": "\"\"\"Plugin: approach (code). Drives above the seen cube to the handoff point.\"\"\"\nfrom basics import MoveTo\n\nVERSION = 1\n\n\nclass Approach(MoveTo):\n    def waypoints(self, snap):\n        c = self.ctx.blackboard.get(\"cube_seen\")\n        return [[c[0], c[1], c[2] + self.s[\"handoff_height\"]]]\n\n\ndef apply(ctx, config):\n    yield ctx.registry.register(\"approach\", VERSION, Approach)\n",
+   "tick_llm_start": 420,
+   "t_llm_start": 11482.606818318,
+   "t_llm_end": 11502.331219944,
+   "t_live": 11502.33280828,
+   "t_done": 11525.941002935
+  }
+ ],
+ "fixed": true,
+ "after_ok": [
+  true,
+  true,
+  true
+ ],
+ "episode_times": [
+  [
+   11469.170218084,
+   11474.871230771,
+   true,
+   1
+  ],
+  [
+   11475.022367426,
+   11479.022491378,
+   false,
+   1
+  ],
+  [
+   11479.172783398,
+   11482.573085134,
+   false,
+   1
+  ],
+  [
+   11482.723491145,
+   11486.224480446,
+   false,
+   1
+  ],
+  [
+   11486.374883247,
+   11489.776114746,
+   false,
+   1
+  ],
+  [
+   11489.92655276,
+   11493.327895444,
+   false,
+   1
+  ],
+  [
+   11493.478192584,
+   11496.878702266,
+   false,
+   1
+  ],
+  [
+   11497.029156672,
+   11500.42978891,
+   false,
+   1
+  ],
+  [
+   11500.580100398,
+   11507.68089371,
+   true,
+   1
+  ],
+  [
+   11507.832091465,
+   11513.732391076,
+   true,
+   1
+  ],
+  [
+   11513.883515793,
+   11519.883744432,
+   true,
+   1
+  ],
+  [
+   11520.034952596,
+   11525.935459659,
+   true,
+   1
+  ],
+  [
+   11526.085806681,
+   11531.98682913,
+   true,
+   1
+  ],
+  [
+   11532.138039464,
+   11538.039097946,
+   true,
+   1
+  ],
+  [
+   11538.189869398,
+   11544.091859335,
+   true,
+   1
+  ],
+  [
+   11544.243437585,
+   11544.243443023,
+   false,
+   1
+  ]
+ ],
+ "t_rust0": 11468.715870351001,
+ "ticks": 2289,
+ "late": 0,
+ "max_gap_ms": 58.836,
+ "dead_token_steps": 0,
+ "s_report_to_fix": 43.3,
+ "episodes": [
+  true,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  false,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  false
+ ],
+ "s_total": 75.3
+}

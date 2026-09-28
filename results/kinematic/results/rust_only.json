@@ -1,0 +1,1 @@
+{"ticks": 9090, "missed": 1, "late_p50_ms": 0.105, "late_p99_ms": 0.613, "late_max_ms": 34.021, "max_gap_ms": 66.921, "hold_ticks": 0, "gaps_over_1_tick": 1}

@@ -1,0 +1,243 @@
+{
+ "rt": true,
+ "normal_0.3s": {
+  "sync": [
+   {
+    "sends": 1559,
+    "expected": 1818,
+    "missed": 31,
+    "max_gap_ms": 333.5706409998238,
+    "gaps_over_1_tick": 31
+   },
+   {
+    "sends": 1559,
+    "expected": 1818,
+    "missed": 31,
+    "max_gap_ms": 333.25838900054805,
+    "gaps_over_1_tick": 31
+   },
+   {
+    "sends": 1559,
+    "expected": 1818,
+    "missed": 31,
+    "max_gap_ms": 333.3003550014837,
+    "gaps_over_1_tick": 31
+   }
+  ],
+  "threaded": [
+   {
+    "sends": 1819,
+    "expected": 1818,
+    "missed": 1,
+    "max_gap_ms": 73.54944300095667,
+    "gaps_over_1_tick": 1
+   },
+   {
+    "sends": 1819,
+    "expected": 1818,
+    "missed": 3,
+    "max_gap_ms": 86.72953399945982,
+    "gaps_over_1_tick": 3
+   },
+   {
+    "sends": 1819,
+    "expected": 1818,
+    "missed": 1,
+    "max_gap_ms": 80.62597199932497,
+    "gaps_over_1_tick": 1
+   }
+  ]
+ },
+ "vla_1s": {
+  "sync": [
+   {
+    "sends": 1144,
+    "expected": 1818,
+    "missed": 22,
+    "max_gap_ms": 1051.4645820003352,
+    "gaps_over_1_tick": 22
+   },
+   {
+    "sends": 1144,
+    "expected": 1818,
+    "missed": 22,
+    "max_gap_ms": 1048.5256930005562,
+    "gaps_over_1_tick": 22
+   },
+   {
+    "sends": 1142,
+    "expected": 1818,
+    "missed": 24,
+    "max_gap_ms": 1033.652621001238,
+    "gaps_over_1_tick": 24
+   }
+  ],
+  "threaded": [
+   {
+    "sends": 1819,
+    "expected": 1818,
+    "missed": 1,
+    "max_gap_ms": 87.87293400018825,
+    "gaps_over_1_tick": 1
+   },
+   {
+    "sends": 1819,
+    "expected": 1818,
+    "missed": 0,
+    "max_gap_ms": 59.50513800053159,
+    "gaps_over_1_tick": 0
+   },
+   {
+    "sends": 1819,
+    "expected": 1818,
+    "missed": 0,
+    "max_gap_ms": 50.58971099970222,
+    "gaps_over_1_tick": 0
+   }
+  ]
+ },
+ "vla_2s": {
+  "sync": [
+   {
+    "sends": 805,
+    "expected": 1818,
+    "missed": 16,
+    "max_gap_ms": 2033.2785560003686,
+    "gaps_over_1_tick": 16
+   },
+   {
+    "sends": 805,
+    "expected": 1818,
+    "missed": 16,
+    "max_gap_ms": 2033.6366999999882,
+    "gaps_over_1_tick": 16
+   },
+   {
+    "sends": 805,
+    "expected": 1818,
+    "missed": 16,
+    "max_gap_ms": 2038.2711389993347,
+    "gaps_over_1_tick": 16
+   }
+  ],
+  "threaded": [
+   {
+    "sends": 1819,
+    "expected": 1818,
+    "missed": 0,
+    "max_gap_ms": 55.696998999337666,
+    "gaps_over_1_tick": 0
+   },
+   {
+    "sends": 1819,
+    "expected": 1818,
+    "missed": 1,
+    "max_gap_ms": 69.35041599899705,
+    "gaps_over_1_tick": 1
+   },
+   {
+    "sends": 1819,
+    "expected": 1818,
+    "missed": 2,
+    "max_gap_ms": 68.72982200002298,
+    "gaps_over_1_tick": 2
+   }
+  ]
+ },
+ "gil_1s": {
+  "sync": [
+   {
+    "sends": 1062,
+    "expected": 1818,
+    "missed": 21,
+    "max_gap_ms": 1405.562297999495,
+    "gaps_over_1_tick": 21
+   },
+   {
+    "sends": 1051,
+    "expected": 1818,
+    "missed": 21,
+    "max_gap_ms": 1368.9528470004007,
+    "gaps_over_1_tick": 21
+   },
+   {
+    "sends": 1058,
+    "expected": 1818,
+    "missed": 21,
+    "max_gap_ms": 1369.8709689997486,
+    "gaps_over_1_tick": 21
+   }
+  ],
+  "threaded": [
+   {
+    "sends": 1863,
+    "expected": 1818,
+    "missed": 37,
+    "max_gap_ms": 1348.8975509990269,
+    "gaps_over_1_tick": 37
+   },
+   {
+    "sends": 1886,
+    "expected": 1818,
+    "missed": 38,
+    "max_gap_ms": 1410.7626099994377,
+    "gaps_over_1_tick": 38
+   },
+   {
+    "sends": 1865,
+    "expected": 1818,
+    "missed": 37,
+    "max_gap_ms": 1372.983938001198,
+    "gaps_over_1_tick": 37
+   }
+  ]
+ },
+ "plugin_throws": {
+  "sync": [
+   {
+    "sends": 0,
+    "expected": 1818,
+    "missed": 1,
+    "max_gap_ms": 60000,
+    "gaps_over_1_tick": 1
+   },
+   {
+    "sends": 0,
+    "expected": 1818,
+    "missed": 1,
+    "max_gap_ms": 60000,
+    "gaps_over_1_tick": 1
+   },
+   {
+    "sends": 0,
+    "expected": 1818,
+    "missed": 1,
+    "max_gap_ms": 60000,
+    "gaps_over_1_tick": 1
+   }
+  ],
+  "threaded": [
+   {
+    "sends": 1819,
+    "expected": 1818,
+    "missed": 0,
+    "max_gap_ms": 63.59168100061652,
+    "gaps_over_1_tick": 0
+   },
+   {
+    "sends": 1819,
+    "expected": 1818,
+    "missed": 1,
+    "max_gap_ms": 80.68147700032569,
+    "gaps_over_1_tick": 1
+   },
+   {
+    "sends": 1819,
+    "expected": 1818,
+    "missed": 1,
+    "max_gap_ms": 80.53805899908184,
+    "gaps_over_1_tick": 1
+   }
+  ]
+ }
+}

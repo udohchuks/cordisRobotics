@@ -1,0 +1,13 @@
+rust/target/
+__pycache__/
+*.pyc
+*.npz
+*.mp4
+ticks.csv
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.blg
+*.out
+.env

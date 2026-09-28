@@ -1,0 +1,36 @@
+{
+ "a1_reply_after_cancel_never_plays": {
+  "trials": 40,
+  "pass": 40,
+  "inbox_rejected": 40
+ },
+ "a2_forced_stale_chunk_never_plays": {
+  "trials": 40,
+  "pass": 40
+ },
+ "b1_halt_queued_chunk_never_plays": {
+  "trials": 40,
+  "pass": 40,
+  "ticks_from_write_to_hold": [
+   1
+  ],
+  "steps_played_per_trial": [
+   0
+  ]
+ },
+ "b2_halt_playing_chunk_stops": {
+  "trials": 40,
+  "pass": 40,
+  "ticks_from_write_to_hold": [
+   1
+  ],
+  "steps_played_per_trial": [
+   11,
+   12
+  ]
+ },
+ "c_log_matches_sent_chunks": {
+  "rows_checked": 463,
+  "mismatches": 0
+ }
+}

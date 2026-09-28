@@ -1,0 +1,157 @@
+{
+ "summary": {
+  "trials": 20,
+  "freeze_s": 2.0,
+  "late_during_total": 0,
+  "max_gap_ms": 37.365,
+  "half_chunk_steps_played": 0,
+  "ticks_to_hold": [
+   16
+  ],
+  "ticks_after_release_to_play": [
+   2
+  ]
+ },
+ "trials": [
+  {
+   "late_during": 0,
+   "max_gap_ms": 33.077,
+   "half_chunk_steps_played": 0,
+   "ticks_to_hold": 16,
+   "ticks_after_release_to_play": 2
+  },
+  {
+   "late_during": 0,
+   "max_gap_ms": 33.778,
+   "half_chunk_steps_played": 0,
+   "ticks_to_hold": 16,
+   "ticks_after_release_to_play": 2
+  },
+  {
+   "late_during": 0,
+   "max_gap_ms": 33.225,
+   "half_chunk_steps_played": 0,
+   "ticks_to_hold": 16,
+   "ticks_after_release_to_play": 2
+  },
+  {
+   "late_during": 0,
+   "max_gap_ms": 33.397,
+   "half_chunk_steps_played": 0,
+   "ticks_to_hold": 16,
+   "ticks_after_release_to_play": 2
+  },
+  {
+   "late_during": 0,
+   "max_gap_ms": 33.09,
+   "half_chunk_steps_played": 0,
+   "ticks_to_hold": 16,
+   "ticks_after_release_to_play": 2
+  },
+  {
+   "late_during": 0,
+   "max_gap_ms": 37.365,
+   "half_chunk_steps_played": 0,
+   "ticks_to_hold": 16,
+   "ticks_after_release_to_play": 2
+  },
+  {
+   "late_during": 0,
+   "max_gap_ms": 33.385,
+   "half_chunk_steps_played": 0,
+   "ticks_to_hold": 16,
+   "ticks_after_release_to_play": 2
+  },
+  {
+   "late_during": 0,
+   "max_gap_ms": 33.086,
+   "half_chunk_steps_played": 0,
+   "ticks_to_hold": 16,
+   "ticks_after_release_to_play": 2
+  },
+  {
+   "late_during": 0,
+   "max_gap_ms": 33.118,
+   "half_chunk_steps_played": 0,
+   "ticks_to_hold": 16,
+   "ticks_after_release_to_play": 2
+  },
+  {
+   "late_during": 0,
+   "max_gap_ms": 33.086,
+   "half_chunk_steps_played": 0,
+   "ticks_to_hold": 16,
+   "ticks_after_release_to_play": 2
+  },
+  {
+   "late_during": 0,
+   "max_gap_ms": 33.116,
+   "half_chunk_steps_played": 0,
+   "ticks_to_hold": 16,
+   "ticks_after_release_to_play": 2
+  },
+  {
+   "late_during": 0,
+   "max_gap_ms": 33.069,
+   "half_chunk_steps_played": 0,
+   "ticks_to_hold": 16,
+   "ticks_after_release_to_play": 2
+  },
+  {
+   "late_during": 0,
+   "max_gap_ms": 33.098,
+   "half_chunk_steps_played": 0,
+   "ticks_to_hold": 16,
+   "ticks_after_release_to_play": 2
+  },
+  {
+   "late_during": 0,
+   "max_gap_ms": 33.072,
+   "half_chunk_steps_played": 0,
+   "ticks_to_hold": 16,
+   "ticks_after_release_to_play": 2
+  },
+  {
+   "late_during": 0,
+   "max_gap_ms": 33.108,
+   "half_chunk_steps_played": 0,
+   "ticks_to_hold": 16,
+   "ticks_after_release_to_play": 2
+  },
+  {
+   "late_during": 0,
+   "max_gap_ms": 33.443,
+   "half_chunk_steps_played": 0,
+   "ticks_to_hold": 16,
+   "ticks_after_release_to_play": 2
+  },
+  {
+   "late_during": 0,
+   "max_gap_ms": 33.065,
+   "half_chunk_steps_played": 0,
+   "ticks_to_hold": 16,
+   "ticks_after_release_to_play": 2
+  },
+  {
+   "late_during": 0,
+   "max_gap_ms": 33.082,
+   "half_chunk_steps_played": 0,
+   "ticks_to_hold": 16,
+   "ticks_after_release_to_play": 2
+  },
+  {
+   "late_during": 0,
+   "max_gap_ms": 33.235,
+   "half_chunk_steps_played": 0,
+   "ticks_to_hold": 16,
+   "ticks_after_release_to_play": 2
+  },
+  {
+   "late_during": 0,
+   "max_gap_ms": 33.341,
+   "half_chunk_steps_played": 0,
+   "ticks_to_hold": 16,
+   "ticks_after_release_to_play": 2
+  }
+ ]
+}

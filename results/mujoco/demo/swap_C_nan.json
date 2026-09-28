@@ -1,0 +1,28 @@
+{
+ "t_ready": 35.82876215999977,
+ "tick_ready": 1098,
+ "load_state": "ACTIVE",
+ "t_idle": 35.83167988499963,
+ "hash_before": "aabcc8ea22283f11",
+ "hash_after": "aabcc8ea22283f11",
+ "t_live": 35.83175904599966,
+ "tick_live": 1098,
+ "running_at_ready": [],
+ "early_reject": "rust_rejected_chunk",
+ "trial": [],
+ "result": "rolled_back",
+ "registry_after": {
+  "perceive": 1,
+  "cube_near_seen": 2,
+  "cube_in_gripper": 3,
+  "cube_in_bowl": 4,
+  "carry": 5,
+  "retreat": 6,
+  "recover": 7,
+  "place": 8,
+  "vla_grasp": 9,
+  "approach": 11
+ },
+ "t_done": 36.035281853000015,
+ "fingerprint_equal_after": true
+}

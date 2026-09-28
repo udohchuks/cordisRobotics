@@ -1,0 +1,148 @@
+{
+ "bug": "early_stop",
+ "run": 3,
+ "model": "deepseek-flash",
+ "attempts": [
+  {
+   "attempt": 0,
+   "llm_s": 14.8,
+   "usage": {
+    "prompt_tokens": 909,
+    "completion_tokens": 3424,
+    "total_tokens": 4333,
+    "prompt_tokens_details": {
+     "cached_tokens": 384
+    },
+    "completion_tokens_details": {
+     "reasoning_tokens": 3315
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 525
+   },
+   "episodes_during_llm": 3,
+   "load_state": "ACTIVE",
+   "error": null,
+   "result": "kept",
+   "trial": [
+    true,
+    true,
+    true
+   ],
+   "identical_after": false,
+   "code": "\"\"\"Plugin: approach (code). Drives above the seen cube to the handoff point.\"\"\"\nfrom basics import MoveTo\n\nVERSION = 1\n\n\nclass Approach(MoveTo):\n    def waypoints(self, snap):\n        c = self.ctx.blackboard.get(\"cube_seen\")\n        return [[c[0], c[1], c[2] + self.s[\"handoff_height\"]]]\n\n\ndef apply(ctx, config):\n    yield ctx.registry.register(\"approach\", VERSION, Approach)\n",
+   "tick_llm_start": 243,
+   "t_llm_start": 11834.558940776,
+   "t_llm_end": 11849.336726689,
+   "t_live": 11849.338520872,
+   "t_done": 11868.788647613
+  }
+ ],
+ "fixed": true,
+ "after_ok": [
+  true,
+  true,
+  true
+ ],
+ "episode_times": [
+  [
+   11826.974830658,
+   11830.975819645,
+   false,
+   1
+  ],
+  [
+   11831.126943035,
+   11834.52737864,
+   false,
+   1
+  ],
+  [
+   11834.679606884,
+   11838.080135453,
+   false,
+   1
+  ],
+  [
+   11838.230501365,
+   11841.631399367,
+   false,
+   1
+  ],
+  [
+   11841.781714493,
+   11845.182295914,
+   false,
+   1
+  ],
+  [
+   11845.332743469,
+   11850.533347551,
+   true,
+   1
+  ],
+  [
+   11850.684443638,
+   11856.585052111,
+   true,
+   1
+  ],
+  [
+   11856.736188366,
+   11862.636435569,
+   true,
+   1
+  ],
+  [
+   11862.787593551,
+   11868.788281821,
+   true,
+   1
+  ],
+  [
+   11868.939424804,
+   11874.839941813,
+   true,
+   1
+  ],
+  [
+   11874.991067466,
+   11880.891946662,
+   true,
+   1
+  ],
+  [
+   11881.042297097,
+   11886.942918999,
+   true,
+   1
+  ],
+  [
+   11887.09354381,
+   11887.093548929,
+   false,
+   1
+  ]
+ ],
+ "t_rust0": 11826.521075297002,
+ "ticks": 1836,
+ "late": 1,
+ "max_gap_ms": 64.603,
+ "dead_token_steps": 0,
+ "s_report_to_fix": 34.2,
+ "episodes": [
+  false,
+  false,
+  false,
+  false,
+  false,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  false
+ ],
+ "s_total": 60.3
+}

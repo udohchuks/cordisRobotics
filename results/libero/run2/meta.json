@@ -1,0 +1,13 @@
+{
+ "goal": "Get the kitchen ready for cooking: the black bowl should be on the stove with the stove turned on, and the wine bottle should be put away on the wine rack.",
+ "goal_check": [
+  "put the bowl on the stove",
+  "turn on the stove",
+  "put the wine bottle on the rack"
+ ],
+ "tick_ms": 250,
+ "model": "deepseek-flash",
+ "task_scene": 8,
+ "init": 0,
+ "t_start": 1790565853.740064
+}
